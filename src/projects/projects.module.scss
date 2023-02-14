@@ -1,0 +1,39 @@
+@import "src/common/styles/variables";
+
+.projectsBlock{
+    min-height: 100vh;
+    background-color: $bgColor;
+    .projectsContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        .projects{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 776px){
+                    justify-content: center;
+            }
+        }
+    }
+}
+//.projectsContainer{
+//    flex-direction: column;
+//    justify-content: flex-start;
+//    box-sizing: border-box;
+//}
+//.projects{
+//    width: 100%;
+//    display: flex;
+//    justify-content: space-between;
+//    flex-wrap: wrap;
+//}
+
+//@media screen and (max-width: 776px){
+//    .projects{
+//        justify-content: center;
+//    }
+//}
+
+

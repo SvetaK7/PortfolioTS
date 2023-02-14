@@ -1,0 +1,70 @@
+.mainBlock {
+  min-height: 100vh;
+  background-color: white;
+
+  .aboutMeInformationWrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    @media screen and (max-width: 1060px) {
+      flex-wrap: wrap;
+    }
+
+    .mainPhoto img {
+      max-width: 450px;
+      max-height: 500px;
+      /*position: relative;*/
+      /*z-index: 100;*/
+      padding: 10px;
+    }
+
+    .aboutMeWrap {
+      padding: 80px 0 80px 20px;
+      overflow: hidden;
+      @media screen and (max-width: 1060px) {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .descriptionText {
+        line-height: 2;
+
+        h2 {
+          color: #474747;
+          padding: 0 0 15px;
+          margin: 0 0 50px;
+          border-bottom: rgba(224, 224, 224, 1) solid 1px;
+          font-weight: 400;
+        }
+
+        p {
+          margin-bottom: 50px;
+        }
+      }
+
+      .aboutContactWrap {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 0.1fr 1fr 1.5fr 0.1fr 1fr 1fr;
+        gap: 5px;
+        @media screen and (max-width: 600px) {
+          grid-template-columns: 0.2fr 1.5fr 1.5fr;
+        }
+
+        div {
+          //font-size: 16px;
+          padding: 0;
+          text-align: left;
+          margin-bottom: 10px;
+          img{
+            filter: invert(44%) sepia(47%) saturate(2620%) hue-rotate(155deg) brightness(98%) contrast(103%);
+          }
+        }
+      }
+
+    }
+  }
+
+}
