@@ -9,6 +9,8 @@ import reactImg from "./../assets/image/react2.svg"
 import reduxImg from "./../assets/image/redux2.svg"
 import tsImg from "./../assets/image/ts2.svg"
 import MUImg from "./../assets/image/materialUi2.svg"
+import {Fade} from "react-awesome-reveal";
+
 
 function Skills() {
 
@@ -30,19 +32,33 @@ function Skills() {
     const materialUI = {
         backgroundImage: `url(${MUImg})`
     }
+    //
+    // const particlesOpt = {
+    //     "particles": {
+    //         "number": {
+    //             "value": 150,
+    //             "density": {
+    //                 "enable" : true,
+    //                 "value_area": 800
+    //             }
+    //         }
+    //     }
+    // }
 
     return (
-        <div className={s.skillsBlock}>
+        <div id={'skills'} className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
                 <MainTitle textTitle={'SKILLS'}/>
-                <div className={s.skills}>
-                    <Skill style={html} title={'HTML&CSS&SASS'} description={'Web design is a similar process of creation, with the intention of presenting...\'Web design is a similar process of creation, with the intention of presenting...'}/>
-                    <Skill style={js} title={'Javascript'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
-                    <Skill style={react} title={'React'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
-                    <Skill style={redux} title={'Redux'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
-                    <Skill style={ts} title={'Typescript'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
-                    <Skill style={materialUI} title={'Material UI'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
-                </div>
+                <Fade duration={2500}>
+                    <div className={s.skills}>
+                        <Skill style={html} title={'HTML&CSS&SASS'} description={'Web design is a similar process of creation, with the intention of presenting...\'Web design is a similar process of creation, with the intention of presenting...'}/>
+                        <Skill style={js} title={'Javascript'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
+                        <Skill style={react} title={'React'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
+                        <Skill style={redux} title={'Redux'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
+                        <Skill style={ts} title={'Typescript'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
+                        <Skill style={materialUI} title={'Material UI'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
+                    </div>
+                </Fade>
             </div>
         </div>
     )

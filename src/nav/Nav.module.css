@@ -19,6 +19,13 @@
     padding: 0 13px 0 13px;
 }
 
+.nav a:hover{
+    background-color: #00acc1;
+}
+.active{
+    background-color: #00acc1;
+}
+
 @media screen and (max-width: 715px) {
     .containerNav {
         justify-content: center;

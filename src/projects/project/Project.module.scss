@@ -1,9 +1,11 @@
 .project{
-    width: 350px;
+    max-width: 350px;
     background-color: #ffffff;
     flex-wrap: wrap;
     box-sizing: border-box;
     margin: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
     box-shadow: 0 0 30px -4px RGB(0 0 0 / 20%);
     overflow: hidden;
     margin-bottom: 30px;
@@ -28,7 +30,7 @@
         }
     }
     .information{
-        padding: 30px 25px;
+        padding: 20px 25px;
         h3{
             color: #474747;
             font-weight: 500;

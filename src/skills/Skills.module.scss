@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 
     .skills {
       width: 100%;

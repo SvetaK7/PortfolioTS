@@ -1,7 +1,8 @@
 import React from 'react';
 import s from './Main.module.scss';
 import sContainer from './../common/styles/Container.module.css';
-import myPhoto from './img/iam.jpg'
+// import myPhoto from './img/iam.jpg'
+import myPhoto2 from './../assets/image/iam2.jpg'
 import gift from './../assets/image/gift2.svg'
 import calendar from './../assets/image/calendar3.svg'
 import location from './../assets/image/location2.svg'
@@ -10,19 +11,25 @@ import study from './../assets/image/study3.svg'
 import language from './../assets/image/language3.svg'
 import email from './../assets/image/email2.svg'
 import phone from './../assets/image/phone2.svg'
+import ParticlesComponent from "../common/components/Particle";
+import Tilt from 'react-parallax-tilt';
+
 
 function Main(){
     return (
-        <div className={s.mainBlock}>
+        <div id={'main'} className={s.mainBlock}>
             <div className={sContainer.container}>
                 <div className={s.aboutMeInformationWrap}>
-                    <div className={s.mainPhoto}>
-                        <img src={myPhoto} alt={'my photo'}/>
-                    </div>
+                    <Tilt scale={1.05}>
+                        <div className={s.mainPhoto}>
+                            <img src={myPhoto2} alt={'my photo'}/>
+                        </div>
+                    </Tilt>
+
                     <div className={s.aboutMeWrap}>
                         <div className={s.descriptionText}>
                             <h2>A LITTLE ABOUT ME</h2>
-                            <p>Hi! My name is Sveta Kozlova. I am a Web Developer and I enjoy it. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi debitis deleniti dicta illum ipsum iusto non placeat repellendus solut.</p>
+                            <p>Hi! My name is Sveta Kozlova. I am a Web Developer and I enjoy it. Hello. I am a person who has a strong passion for programming. I have experience in creating SPA with React/Redux/TypeScript. Now I am improving my skills in this direction. I also studying React Native, because I am interesting in mobile development.</p>
                         </div>
                         <div className={s.aboutContactWrap}>
                             <div><img src={gift} width={'17px'} height={'17px'}/></div>

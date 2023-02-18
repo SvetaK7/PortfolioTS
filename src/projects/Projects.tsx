@@ -6,6 +6,7 @@ import {MainTitle} from "../common/components/MainTitle";
 import socialNetworkImg from "./../assets/image/social_network.jpg"
 import todolistImg from "./../assets/image/tdL5.jpg"
 import counterImg from "./../assets/image/counter4.jpg"
+import {Fade} from "react-awesome-reveal";
 
 function Projects() {
     const socialNetwork = {
@@ -23,15 +24,17 @@ function Projects() {
     }
     return (
 
-        <div className={s.projectsBlock}>
+        <div id={'projects'} className={s.projectsBlock}>
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <MainTitle textTitle={'PROJECTS'}/>
-                <div className={s.projects}>
-                    <Project style={socialNetwork} title={'Social Network'} description={'Social Network created of React and typescript'}/>
-                    <Project style={todolist} title={'Todolist'}
-                             description={'List of tasks for each on the react and typescript. List of tasks for each on the react and typescript.'}/>
-                    <Project style={counter} title={'Counter'} description={'Simple counter created of React and TypeScript'}/>
-                </div>
+                <Fade duration={2500}>
+                    <div className={s.projects}>
+                        <Project style={socialNetwork} title={'Social Network'} description={'Social Network created of React and typescript'}/>
+                        <Project style={todolist} title={'Todolist'}
+                                 description={'List of tasks for each on the react and typescript. List of tasks for each on the react and typescript.'}/>
+                        <Project style={counter} title={'Counter'} description={'Simple counter created of React and TypeScript'}/>
+                    </div>
+                </Fade>
             </div>
         </div>
     )
