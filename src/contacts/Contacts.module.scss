@@ -31,6 +31,14 @@
           outline: none;
         }
       }
+      :nth-child(3){
+        min-height: 100px;
+        &::placeholder{
+          //line-height: 20px;
+          transform: translateY(-32.5px);
+        }
+      }
+
 
       textarea {
         padding: 15px 10px;
