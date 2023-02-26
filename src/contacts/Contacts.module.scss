@@ -71,6 +71,11 @@
       &:hover {
         box-shadow: 0 3px 6px 0 RGB(0 0 0 / 40%);
       }
+      &:disabled{
+        background-color: #cccccc;
+        box-shadow: inherit;
+        cursor: inherit;
+      }
     }
   }
 }

@@ -3,11 +3,9 @@ import s from "./Contacts.module.scss";
 import sContainer from './../common/styles/Container.module.css'
 import {MainTitle} from "../common/components/MainTitle";
 import {send} from "emailjs-com";
-import Stack from '@mui/material/Stack';
-import LoadingButton from '@mui/lab/LoadingButton';
+
 
 function Contacts() {
-
     const [toSend, setToSend] = useState({
         from_name: '',
         message: '',
@@ -17,6 +15,7 @@ function Contacts() {
 
     const onSubmit = (e: any) => {
         e.preventDefault();
+        setIsLoading(true);
         send(
             'service_hzs5aik',
             'template_unf2z39',
@@ -30,10 +29,15 @@ function Contacts() {
                     message: '',
                     reply_to: '',
                 })
+                setIsLoading(false)
             })
             .catch((err: any) => {
                 console.log('FAILED...', err);
-            });
+            })
+            .finally(() => {
+                // setIsLoading(false)
+            })
+        ;
     };
 
 
@@ -66,28 +70,7 @@ function Contacts() {
                                value={toSend.message}
                                onChange={handleChange}
                         ></input>
-                        <button type={'submit'} className={s.buttonSend}>Send message</button>
-                        <Stack direction="row" spacing={2}>
-                            <LoadingButton loading={loading}
-
-                                           variant="outlined"
-                                           //disableRipple
-                                           sx={{width: 150,
-                                               backgroundColor: '#00acc1',
-                                               color: 'white',
-                                               borderColor: '#00acc1',
-                                               borderRadius: 1,
-                                               padding: 1,
-                                               '.Mui-focusVisible': {
-                                                   backgroundColor: '#00acc1!important'
-                                               },
-                                                  '.MuiButtonBase-root:hover': {
-                                                      backgroundColor: '#00acc1'
-                                           }
-                                           }}>
-                                Send message
-                            </LoadingButton>
-                        </Stack>
+                        <button type={'submit'} className={s.buttonSend} disabled={loading}>Send message</button>
                     </form>
                 </div>
             </div>
