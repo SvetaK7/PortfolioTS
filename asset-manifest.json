@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/PortfolioTS/static/css/main.ca38542f.css",
+    "main.js": "/PortfolioTS/static/js/main.dcc0b738.js",
+    "static/js/787.1f11dfe9.chunk.js": "/PortfolioTS/static/js/787.1f11dfe9.chunk.js",
+    "static/media/social_network.jpg": "/PortfolioTS/static/media/social_network.a479d279543002031b42.jpg",
+    "static/media/bg2.jpg": "/PortfolioTS/static/media/bg2.2ea6f517b6a97a72fc49.jpg",
+    "static/media/counter4.jpg": "/PortfolioTS/static/media/counter4.ffe6656db91a270d5aa4.jpg",
+    "static/media/tdL5.jpg": "/PortfolioTS/static/media/tdL5.0c612e9f0560461b6367.jpg",
+    "static/media/CV Kozlova_Svetlana.pdf": "/PortfolioTS/static/media/CV Kozlova_Svetlana.8cdc3bd8804a76004327.pdf",
+    "static/media/iam2.jpg": "/PortfolioTS/static/media/iam2.8ce2da8ed0fc5f18b3a2.jpg",
+    "static/media/codewars.svg": "/PortfolioTS/static/media/codewars.89fb91eacea6deaf6171c02bea9851ef.svg",
+    "static/media/react2.svg": "/PortfolioTS/static/media/react2.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/redux2.svg": "/PortfolioTS/static/media/redux2.609190d142776d97540d56376fce6a2c.svg",
+    "static/media/calendar3.svg": "/PortfolioTS/static/media/calendar3.5b3497f54a214a0b1065289367ff7dd3.svg",
+    "static/media/html.svg": "/PortfolioTS/static/media/html.c9841220ea324d8248e7df28daec4735.svg",
+    "static/media/linkedin.svg": "/PortfolioTS/static/media/linkedin.7244e14e585034324375f29b9f18f587.svg",
+    "static/media/email2.svg": "/PortfolioTS/static/media/email2.354dd3225481fcaac711b021b0ed6510.svg",
+    "static/media/study3.svg": "/PortfolioTS/static/media/study3.2f8fd5450020c189162807bf545e6559.svg",
+    "static/media/phone2.svg": "/PortfolioTS/static/media/phone2.dd83372e49499297b6b3c696ff8959e8.svg",
+    "static/media/location2.svg": "/PortfolioTS/static/media/location2.52238529d0ddb48669d59419957b2ced.svg",
+    "static/media/ts2.svg": "/PortfolioTS/static/media/ts2.19388ca6b6dde5741433ca2b940b8044.svg",
+    "static/media/language3.svg": "/PortfolioTS/static/media/language3.76765e3a26c6345165ddec5963aee2ee.svg",
+    "static/media/gift2.svg": "/PortfolioTS/static/media/gift2.a0a43c5261d4c6bf48a1a4dc640df375.svg",
+    "static/media/materialUi2.svg": "/PortfolioTS/static/media/materialUi2.456bfb02539777f812137c514d397868.svg",
+    "static/media/github.svg": "/PortfolioTS/static/media/github.6b128a9af225878ee620c71c4ccf182b.svg",
+    "static/media/js2.svg": "/PortfolioTS/static/media/js2.4e7f61d9190c3ed22a09a5f0159d84eb.svg",
+    "index.html": "/PortfolioTS/index.html",
+    "static/media/games2.svg": "/PortfolioTS/static/media/games2.b025dfc26a3143d24937e026d9cc4d85.svg",
+    "static/media/arrow.svg": "/PortfolioTS/static/media/arrow.15573ee8634103febfe48699d9b2e8ee.svg",
+    "main.ca38542f.css.map": "/PortfolioTS/static/css/main.ca38542f.css.map",
+    "main.dcc0b738.js.map": "/PortfolioTS/static/js/main.dcc0b738.js.map",
+    "787.1f11dfe9.chunk.js.map": "/PortfolioTS/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca38542f.css",
+    "static/js/main.dcc0b738.js"
+  ]
+}
