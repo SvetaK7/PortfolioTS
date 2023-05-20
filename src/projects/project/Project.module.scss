@@ -9,6 +9,7 @@
     box-shadow: 0 0 30px -4px RGB(0 0 0 / 20%);
     overflow: hidden;
     margin-bottom: 30px;
+    position: relative;
     .icon {
         max-width: 350px;
         height: 300px;
@@ -28,13 +29,14 @@
             -ms-transform: scale(1.1); /*Указываем величину изображения при анимации*/
             transform: scale(1.1);
         }
+
     }
     .information{
-        padding: 20px 25px;
+        padding: 5px 25px;
         h3{
             color: #474747;
             font-weight: 500;
-            padding: 18px 0 18px;
+            padding: 10px 0 10px;
             border-bottom: rgba(215,215,215,1) solid 1px;
             font-size: 25px;
             margin-bottom: 10px;
@@ -43,40 +45,42 @@
             color: #878787;
             font-size: 14px;
             line-height: 1.571428;
+            margin-bottom: 45px;
+        }
+        .linkToCode{
+            position: absolute;
+            bottom: 0;
+            left: 36%;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            background-color: #00acc1;;
+            border: none;
+            padding: 3px;
+            width: 100px;
+            //transition: all 0.5s;
+        span{
+            color: white;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+            &:after{
+                content: '»';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+            &:hover{
+                padding-right: 25px;
+            }
+            &:hover:after{
+                opacity: 1;
+                right: 0;
+            }
+        }
         }
     }
 
 }
-//.icon {
-//    /*max-width: 360px;*/
-//    height: 200px;
-//    background-position: center;
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    cursor: pointer;
-//    overflow: hidden;
-//    background-size: 100%;
-//    /*background-size: cover;*/
-//    transition: 0.5s;
-//    /*background-repeat: no-repeat;*/
-//}
-//.icon:hover{
-//    background-size: 120%;
-//}
-//.information{
-//    padding: 30px 25px
-//}
-
-//.information h3{
-//    color: #474747;
-//    font-weight: 500;
-//    padding: 18px 0 18px;
-//    border-bottom: rgba(215,215,215,1) solid 1px;
-//}
-//
-//.information p{
-//    color: #878787;
-//    font-size: 14px;
-//    line-height: 1.571428;
-//}

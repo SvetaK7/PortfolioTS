@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Nav.module.css';
-import ParticlesComponent from "../common/components/Particle";
 import {Link} from "react-scroll";
 
 function Nav(){

@@ -7,7 +7,6 @@ import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 import {Arrow} from "./common/components/Arrow";
-import {EmailSend} from "./contacts/EmailSend";
 
 function App() {
 
