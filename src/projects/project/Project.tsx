@@ -1,7 +1,15 @@
 import React from 'react';
 import s from "./Project.module.scss"
 
-function Project(props: any) {
+type Props = {
+  href: string
+  style: {}
+  title: string
+  description: string
+  stack: string
+  linkToCode: string
+}
+function Project(props: Props) {
   return (
     <div className={s.project}>
       <a href={props.href} target="_blank">
