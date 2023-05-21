@@ -1,86 +1,103 @@
-.project{
+.project {
+  max-width: 350px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+  box-shadow: 0 0 30px -4px RGB(0 0 0 / 20%);
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+
+  .icon {
     max-width: 350px;
-    background-color: #ffffff;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin: 5px;
-    margin-right: 25px;
-    margin-left: 25px;
-    box-shadow: 0 0 30px -4px RGB(0 0 0 / 20%);
+    height: 300px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     overflow: hidden;
-    margin-bottom: 30px;
-    position: relative;
-    .icon {
-        max-width: 350px;
-        height: 300px;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    //background-size: 100%;
+    background-size: cover;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+
+    &:hover {
+      //background-size: 120%;
+      //-webkit-transform: scale(1.2); /*Указываем величину изображения при анимации*/
+      -ms-transform: scale(1.1); /*Указываем величину изображения при анимации*/
+      transform: scale(1.1);
+    }
+
+  }
+
+  .information {
+    padding: 5px 15px;
+
+    h3 {
+      color: #474747;
+      font-weight: 500;
+      padding-bottom: 5px;
+      border-bottom: rgba(215, 215, 215, 1) solid 1px;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #878787;
+      font-size: 14px;
+      line-height: 1.571428;
+    }
+
+    .stack {
+      font-size: 12px;
+      margin-bottom: 55px;
+      font-weight: 700;
+      //display: flex;
+      //flex-direction: column;
+      //justify-content: flex-end;
+    }
+
+    .linkToCode {
+      position: absolute;
+      bottom: 0;
+      left: 36%;
+      margin-bottom: 18px;
+      border-radius: 4px;
+      background-color: #00acc1;;
+      border: none;
+      padding: 3px;
+      width: 100px;
+
+      span {
+        color: white;
         cursor: pointer;
-        overflow: hidden;
-        //background-size: 100%;
-        background-size: cover;
+        display: inline-block;
+        position: relative;
         transition: 0.5s;
-        background-repeat: no-repeat;
-        &:hover{
-            //background-size: 120%;
-            //-webkit-transform: scale(1.2); /*Указываем величину изображения при анимации*/
-            -ms-transform: scale(1.1); /*Указываем величину изображения при анимации*/
-            transform: scale(1.1);
+
+        &:after {
+          content: '»';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
         }
 
+        &:hover {
+          padding-right: 25px;
+        }
+
+        &:hover:after {
+          opacity: 1;
+          right: 0;
+        }
+      }
     }
-    .information{
-        padding: 5px 25px;
-        h3{
-            color: #474747;
-            font-weight: 500;
-            padding: 10px 0 10px;
-            border-bottom: rgba(215,215,215,1) solid 1px;
-            font-size: 25px;
-            margin-bottom: 10px;
-        }
-        p{
-            color: #878787;
-            font-size: 14px;
-            line-height: 1.571428;
-            margin-bottom: 45px;
-        }
-        .linkToCode{
-            position: absolute;
-            bottom: 0;
-            left: 36%;
-            margin-bottom: 10px;
-            border-radius: 4px;
-            background-color: #00acc1;;
-            border: none;
-            padding: 3px;
-            width: 100px;
-            //transition: all 0.5s;
-        span{
-            color: white;
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            transition: 0.5s;
-            &:after{
-                content: '»';
-                position: absolute;
-                opacity: 0;
-                top: 0;
-                right: -20px;
-                transition: 0.5s;
-            }
-            &:hover{
-                padding-right: 25px;
-            }
-            &:hover:after{
-                opacity: 1;
-                right: 0;
-            }
-        }
-        }
-    }
+  }
 
 }

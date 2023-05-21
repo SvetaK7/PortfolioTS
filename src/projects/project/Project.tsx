@@ -10,6 +10,7 @@ function Project(props: any) {
       <div className={s.information}>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
+        <p className={s.stack}>{props.stack}</p>
         <div className={s.linkToCode}><a href={props.linkToCode} target="_blank"><span>Code</span></a></div>
       </div>
     </div>

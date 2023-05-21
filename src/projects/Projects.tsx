@@ -26,38 +26,44 @@ function Projects() {
           <div className={s.projects}>
             <Project style={cards}
                      title={'Сard training'}
-                     description={'Simple counter created of React and TypeScript'}
+                     description={'You can create your own learning cards. Also implements registration, login, password recovery.'}
+                     stack={'React, Redux Toolkit, TypeScript, React Hook Form, Axios, React Router Dom, Material UI, SASS, Git'}
                      href={'https://leskevich.github.io/cards'}
                      linkToCode={'https://github.com/SvetaK7/Currency-converter'}
             />
             <Project style={todolist}
                      title={'Todolist'}
                      href={'https://SvetaK7.github.io/TodoList'}
-                     description={'List of tasks for each on the react and typescript. List of tasks for each on the react and typescript.'}
+                     description={'You can add, delete todolists and tasks. You can also filter, edit tasks.'}
+                     stack={'React, Redux, TypeScript, Formik, Axios, Material UI, CSS'}
                      linkToCode={'https://github.com/SvetaK7/TodoList'}
             />
             <Project style={counter}
                      title={'Counter'}
-                     description={'Simple counter created of React and TypeScript, Redux'}
+                     description={'Simple counter created of React and TypeScript, Redux.'}
+                     stack={'React, Redux, TypeScript, CSS'}
                      href={'https://SvetaK7.github.io/Counter'}
                      linkToCode={'https://github.com/SvetaK7/Counter'}
             />
             <Project style={converter}
                      title={'Currency converter'}
-                     description={'Simple counter created of React and TypeScript'}
+                     description={'You can convert currencies with a valid exchange rate.'}
+                     stack={'React, TypeScript, CSS'}
                      href={'https://svetak7.github.io/Currency-converter/'}
                      linkToCode={'https://github.com/SvetaK7/Currency-converter'}
             />
             <Project style={todolist}
                      title={'Todolist (RTK)'}
-                     description={'Simple counter created of React and TypeScript'}
+                     description={'You can add, delete todolists and tasks. You can also filter, edit tasks.'}
+                     stack={'React, Redux Toolkit, TypeScript, Formik, Axios, Material UI, CSS'}
                      href={'https://SvetaK7.github.io/Todo-RTK'}
                      linkToCode={'https://github.com/SvetaK7/Todo-RTK'}
             />
             <Project href={'https://github.com/SvetaK7/samurai-way-main'}
                      style={socialNetwork}
                      title={'Social Network'}
-                     description={'Social Network created of React and typescript'}
+                     description={'You can update the avatar, and posts, view the profile of other members.'}
+                     stack={'React, Redux, Redux-thunk, TypeScript, Axios, React Router Dom, Material UI, CSS'}
                      linkToCode={'Social Network created of React and typescript'}
             />
           </div>
