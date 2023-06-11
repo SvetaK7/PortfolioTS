@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioTS/static/css/main.f3843f7e.css",
-    "main.js": "/PortfolioTS/static/js/main.e5a2f739.js",
+    "main.js": "/PortfolioTS/static/js/main.8c963eb4.js",
     "static/js/787.1f11dfe9.chunk.js": "/PortfolioTS/static/js/787.1f11dfe9.chunk.js",
     "static/media/social_network.jpg": "/PortfolioTS/static/media/social_network.a479d279543002031b42.jpg",
     "static/media/bg2.jpg": "/PortfolioTS/static/media/bg2.2ea6f517b6a97a72fc49.jpg",
@@ -11,6 +11,7 @@
     "static/media/cards2.jpg": "/PortfolioTS/static/media/cards2.785f3e17347dba66320d.jpg",
     "static/media/CV Kozlova_Svetlana.pdf": "/PortfolioTS/static/media/CV Kozlova_Svetlana.8cdc3bd8804a76004327.pdf",
     "static/media/iam2.jpg": "/PortfolioTS/static/media/iam2.8ce2da8ed0fc5f18b3a2.jpg",
+    "static/media/player.png": "/PortfolioTS/static/media/player.3f1b00f2c28656901322.png",
     "static/media/postman.svg": "/PortfolioTS/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/codewars.svg": "/PortfolioTS/static/media/codewars.89fb91eacea6deaf6171c02bea9851ef.svg",
     "static/media/react2.svg": "/PortfolioTS/static/media/react2.fdd3331d261ad6d5e1c92448737aa2aa.svg",
@@ -34,11 +35,11 @@
     "static/media/games2.svg": "/PortfolioTS/static/media/games2.b025dfc26a3143d24937e026d9cc4d85.svg",
     "static/media/arrow.svg": "/PortfolioTS/static/media/arrow.15573ee8634103febfe48699d9b2e8ee.svg",
     "main.f3843f7e.css.map": "/PortfolioTS/static/css/main.f3843f7e.css.map",
-    "main.e5a2f739.js.map": "/PortfolioTS/static/js/main.e5a2f739.js.map",
+    "main.8c963eb4.js.map": "/PortfolioTS/static/js/main.8c963eb4.js.map",
     "787.1f11dfe9.chunk.js.map": "/PortfolioTS/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3843f7e.css",
-    "static/js/main.e5a2f739.js"
+    "static/js/main.8c963eb4.js"
   ]
 }
