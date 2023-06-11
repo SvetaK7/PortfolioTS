@@ -8,6 +8,7 @@ import todolistImg from "./../assets/image/tdL5.jpg"
 import counterImg from "./../assets/image/counter4.jpg"
 import converterImg from "./../assets/image/converterCurrently.jpg"
 import cardsImg from "./../assets/image/cards2.jpg"
+import playerImg from "./../assets/image/player.png"
 import {Fade} from "react-awesome-reveal";
 
 function Projects() {
@@ -16,6 +17,7 @@ function Projects() {
   const counter = {backgroundImage: `url(${counterImg})`};
   const converter = {backgroundImage: `url(${converterImg})`};
   const cards = {backgroundImage: `url(${cardsImg})`};
+  const player = {backgroundImage: `url(${playerImg})`}
 
   return (
 
@@ -64,7 +66,14 @@ function Projects() {
                      title={'Social Network'}
                      description={'You can update the avatar, and posts, view the profile of other members.'}
                      stack={'React, Redux, Redux-thunk, TypeScript, Axios, React Router Dom, Material UI, CSS'}
-                     linkToCode={'Social Network created of React and typescript'}
+                     linkToCode={'https://github.com/SvetaK7/samurai-way-main'}
+            />
+            <Project href={'https://github.com/SvetaK7/audio-player'}
+                     style={player}
+                     title={'Music Player'}
+                     description={'You can listen, scroll, mix audio tracks, change the volume.'}
+                     stack={'JS, HTML,SCSS'}
+                     linkToCode={'https://github.com/SvetaK7/audio-player'}
             />
           </div>
         </Fade>
